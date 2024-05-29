@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable and professional website">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="Author" content="BAMTEFA, Olorunshogo Moses">
+    <title>ABCXZ Web Design | Welcome</title>
+    <link rel="stylesheet" href="ABCXZ Web Design.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">ABCXZ</span> Web Design</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li  class="current"><a href="ABCXZ Web Design.html"><span">HOME</span></a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Affordable Professional Web Design</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, aliquid. Esse hic aspernatur earum expedita, molestiae at doloremque omnis incidunt!</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subsribe To Our Newsletter</h1>
+            <form action="/process.php">
+                <input type="email" placeholder="marydoe@...mail.com">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="/ABCXZ Web Design/HTML5 logo.png" alt="HTML5 logo">
+                <h3>HTML5 Markup</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dolore.</p>
+            </div>
+
+            <div class="box">
+                <img src="/ABCXZ Web Design/css logo.png" alt="CSS logo">
+                <h3>CSS Styling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dolore.</p>
+            </div>
+
+            <div class="box">
+                <img src="/ABCXZ Web Design/Black brush computer icon logo.png" alt="Black Brush logo">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dolore.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>ABCXZ Web Design, Copyright &copy; 2023</p>
+        <div id="date"></div>
+    </footer>
+    
+    <script>
+        //This enabkes current date to show
+        document.getElementById('date').innerHTML = Date();
+
+        // This is where the Animate On Scroll is initiated (AOS)
+        AOS.init();
+
+    </script>
+</body>
+</html>
